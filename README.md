@@ -1,0 +1,1 @@
+# Suma-kontrolna-Numeru-bankowego
