@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Help-text {
+    font-size: .6rem;
+    font-weight: bold;
+    margin-top: .5em;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+.blur {
+    /* color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.1); */
+    filter: blur(5px);
+ }

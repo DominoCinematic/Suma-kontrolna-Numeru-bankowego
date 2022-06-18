@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="Bootstrap css i js/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs- col-sm-12 col-mb-12 col-lg-12">
+          <form>
+              <div class="col-xs-12 col-sm-12 col-mb-6">
+                <label for="exampleInputEmail1" class="form-label">Podaj numer Towjego konta bankowego</label>
+                <select id="selectCountry" class="form-select" aria-label="Default select example">
+                  <option selected>Wybież karj konta bankowego</option>
+                
+                </select>
+                <input type="text" class="form-control Number" id="acount-Number"  aria-describedby="emailHelp" placeholder=>
+                <div id="Help-text" class="form-text"></div>
+                <div class="d-grid gap-2">
+                  <button type="button" class="btn btn-danger" id="blurBTN" data-bs-toggle="button">Zasłoń numer konta</button>
+                </div>
+              </div>
+              <div class="xs-12 sm-12 mb-6">
+                <label for="exampleInputPassword1" class="form-label" >Suma kontrolna konta bankowego</label>
+                <input type="text" class="form-control" id="sum-control">
+                <div id="Help-text" class="form-text error"></div>
+              </div>
+      
+              <div class="d-grid gap-2">
+                  <button type="button" class="btn btn-primary" id="send">Sprawdź sumę kontronlą</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <script src="./jQuerry3.60.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <script src="./Bootstrap css i js/js/bootstrap.min.js"></script>
+    <script src="./countryCode.js"></script>
+    <!-- <script src="./checkSum.js"></script> -->
+    <script src="./jQuery.js"></script>
+</body>
+</html>
